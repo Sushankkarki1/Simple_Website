@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Frontend (Static)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple CRUD UI (Static)</h1>
+
+    <!-- CREATE -->
+    <section class="form-section">
+      <h2>Add Item</h2>
+      <form>
+        <input type="text" placeholder="Item name" required>
+        <input type="text" placeholder="Description" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <!-- READ -->
+    <section class="table-section">
+      <h2>Items List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Example Item</td>
+            <td>This is a sample item.</td>
+            <td>
+              <button class="update-btn">Update</button>
+              <button class="delete-btn">Delete</button>
+            </td>
+          </tr>
+          <!-- Add more static rows if needed -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
